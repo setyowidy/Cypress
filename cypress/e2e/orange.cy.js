@@ -6,7 +6,7 @@ describe('OrangeHRM Login Test', () => {
       cy.get('input[name="username"]', { timeout: 100000 }).should('be.visible').type('Admin');
       cy.get('input[name="password"]', {timeout: 10000}).should('be.visible').type('admin123');
   
-      // Klik tombol login lagi tstete
+      // Klik tombol login lagi tstetesdadasdas
       cy.get('button[type="submit"]').click();
   
       // Verifikasi setelah login berhasil (dashboard muncul)
